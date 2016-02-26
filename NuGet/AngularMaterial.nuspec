@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Angular.Material</id>
+    <version>1.0.5</version>
+    <title>Angular Material</title>
+    <authors>The AngularJS Material Design Team</authors>
+    <owners>Catalin Tomescu</owners>
+    <projectUrl>https://material.angularjs.org/</projectUrl>
+    <iconUrl>https://material.angularjs.org/latest/favicon.ico</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Angular Material is the reference implementation of Google's Material Design Specification</description>
+    <summary>
+      Angular.Material contains the scripts and CSS files for adding Material Design in AngularJS applications.
+      
+      DISCLAIMER: This package is maintained by Catalin Tomescu, but I don't work on Angular Material.
+      This is simply a repackaging for use by NuGet users.
+    </summary>
+    <language>en-US</language>
+    <tags>angularjs angular material</tags>
+  </metadata>
+  <files>
+    <file src="Content\angular-material.css" target="content\Content\angular-material.css" />
+    <file src="Content\angular-material.min.css" target="content\Content\angular-material.min.css" />
+    <file src="Content\angular-material.layouts.css" target="content\Content\angular-material.layouts.css" />
+    <file src="Content\angular-material.layouts.min.css" target="content\Content\angular-material.layouts.min.css" />
+    
+    <file src="Scripts\angular-material\angular-material.js" target="content\Scripts\angular-material\angular-material.js" />
+    <file src="Scripts\angular-material\angular-material.min.js" target="content\Scripts\angular-material\angular-material.min.js" />
+    <file src="Scripts\angular-material\angular-material-mocks.js" target="content\Scripts\angular-material\angular-material-mocks.js" />
+
+    <file src="Scripts\angular-animate\angular-animate.js" target="content\Scripts\angular-animate\angular-animate.js" />
+    <file src="Scripts\angular-animate\angular-animate.min.js" target="content\Scripts\angular-animate\angular-animate.min.js" />
+
+    <file src="Scripts\angular-aria\angular-aria.js" target="content\Scripts\angular-aria\angular-aria.js" />
+    <file src="Scripts\angular-aria\angular-aria.min.js" target="content\Scripts\angular-aria\angular-aria.min.js" />
+  </files>
+</package>

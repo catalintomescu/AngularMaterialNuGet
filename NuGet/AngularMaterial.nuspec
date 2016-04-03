@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>Angular.Material</id>
-    <version>1.0.6</version>
+    <version>1.0.7</version>
     <title>Angular Material</title>
     <authors>The AngularJS Material Design Team</authors>
     <owners>Catalin Tomescu</owners>
@@ -31,8 +31,10 @@
 
     <file src="Scripts\angular-animate\angular-animate.js" target="content\Scripts\angular-animate\angular-animate.js" />
     <file src="Scripts\angular-animate\angular-animate.min.js" target="content\Scripts\angular-animate\angular-animate.min.js" />
+    <file src="Scripts\angular-animate\angular-animate.min.js.map" target="content\Scripts\angular-animate\angular-animate.min.js.map" />
 
     <file src="Scripts\angular-aria\angular-aria.js" target="content\Scripts\angular-aria\angular-aria.js" />
     <file src="Scripts\angular-aria\angular-aria.min.js" target="content\Scripts\angular-aria\angular-aria.min.js" />
+    <file src="Scripts\angular-aria\angular-aria.min.js.map" target="content\Scripts\angular-aria\angular-aria.min.js.map" />
   </files>
 </package>

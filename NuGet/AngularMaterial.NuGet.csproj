@@ -59,6 +59,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AngularMaterial.nuspec" />
+    <Content Include="Scripts\angular-animate\angular-animate.min.js.map" />
+    <Content Include="Scripts\angular-aria\angular-animate.min.js.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

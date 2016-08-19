@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>Angular.Material</id>
-    <version>1.0.9</version>
+    <version>1.1.0</version>
     <title>Angular Material</title>
     <authors>The AngularJS Material Design Team</authors>
     <owners>Catalin Tomescu</owners>
@@ -24,7 +24,10 @@
     <file src="Content\angular-material.min.css" target="content\Content\angular-material.min.css" />
     <file src="Content\angular-material.layouts.css" target="content\Content\angular-material.layouts.css" />
     <file src="Content\angular-material.layouts.min.css" target="content\Content\angular-material.layouts.min.css" />
-    
+    <file src="Content\angular-material.layout-attributes.css" target="content\Content\angular-material.layout-attributes.css" />
+    <file src="Content\angular-material.layout-attributes.min.css" target="content\Content\angular-material.layout-attributes.min.css" />
+    <file src="Content\angular-material.layouts.ie_fixes.css" target="content\Content\angular-material.layouts.ie_fixes.css" />
+
     <file src="Scripts\angular-material\angular-material.js" target="content\Scripts\angular-material\angular-material.js" />
     <file src="Scripts\angular-material\angular-material.min.js" target="content\Scripts\angular-material\angular-material.min.js" />
     <file src="Scripts\angular-material\angular-material-mocks.js" target="content\Scripts\angular-material\angular-material-mocks.js" />
@@ -36,5 +39,8 @@
     <file src="Scripts\angular-aria\angular-aria.js" target="content\Scripts\angular-aria\angular-aria.js" />
     <file src="Scripts\angular-aria\angular-aria.min.js" target="content\Scripts\angular-aria\angular-aria.min.js" />
     <file src="Scripts\angular-aria\angular-aria.min.js.map" target="content\Scripts\angular-aria\angular-aria.min.js.map" />
+
+    <file src="Scripts\angular\angular.js" target="content\Scripts\angular\angular.js" />
+    <file src="Scripts\angular\angular.min.js" target="content\Scripts\angular\angular.min.js" />
   </files>
 </package>

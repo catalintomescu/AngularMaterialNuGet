@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularMaterial.NuGet", "NuGet\AngularMaterial.NuGet.csproj", "{836186B1-4D6A-4013-BC93-CA35ABC54A90}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularMaterial.SampleApp", "SampleApp\AngularMaterial.SampleApp.csproj", "{573AD962-664A-4104-8925-17B527DB5A13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularMaterial.NuGet2", "NuGet2\AngularMaterial.NuGet2.csproj", "{ABBD0097-0BF1-426D-AF9B-24A2E132AFCE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{573AD962-664A-4104-8925-17B527DB5A13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{573AD962-664A-4104-8925-17B527DB5A13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{573AD962-664A-4104-8925-17B527DB5A13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABBD0097-0BF1-426D-AF9B-24A2E132AFCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABBD0097-0BF1-426D-AF9B-24A2E132AFCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABBD0097-0BF1-426D-AF9B-24A2E132AFCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABBD0097-0BF1-426D-AF9B-24A2E132AFCE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

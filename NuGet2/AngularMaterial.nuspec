@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Angular.Material</id>
+    <version>1.1.4</version>
+    <title>Angular Material</title>
+    <authors>The AngularJS Material Design Team</authors>
+    <owners>Catalin Tomescu</owners>
+    <projectUrl>https://material.angularjs.org/</projectUrl>
+    <iconUrl>https://material.angularjs.org/latest/favicon.ico</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Angular Material is the reference implementation of Google's Material Design Specification</description>
+    <summary>
+      Angular.Material contains the scripts and CSS files for adding Material Design in AngularJS applications.
+      
+      DISCLAIMER: This package is maintained by Catalin Tomescu, but I don't work on Angular Material.
+      This is simply a repackaging for use by NuGet users.
+    </summary>
+    <language>en-US</language>
+    <tags>angularjs angular material</tags>
+    <dependencies>
+      <dependency id="AngularJS.Core" version="1.6.4" />
+      <dependency id="AngularJS.Aria" version="1.6.4" />
+      <dependency id="AngularJS.Animate" version="1.6.4" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="Content\angular-material.css" target="content\Content\angular-material.css" />
+    <file src="Content\angular-material.min.css" target="content\Content\angular-material.min.css" />
+    <file src="Content\angular-material.layouts.css" target="content\Content\angular-material.layouts.css" />
+    <file src="Content\angular-material.layouts.min.css" target="content\Content\angular-material.layouts.min.css" />
+    <file src="Content\angular-material.layout-attributes.css" target="content\Content\angular-material.layout-attributes.css" />
+    <file src="Content\angular-material.layout-attributes.min.css" target="content\Content\angular-material.layout-attributes.min.css" />
+    <file src="Content\angular-material.layouts.ie_fixes.css" target="content\Content\angular-material.layouts.ie_fixes.css" />
+
+    <file src="Scripts\angular-material.js" target="content\Scripts\angular-material.js" />
+    <file src="Scripts\angular-material.min.js" target="content\Scripts\angular-material.min.js" />
+    <file src="Scripts\angular-material-mocks.js" target="content\Scripts\angular-material-mocks.js" />
+  </files>
+</package>
